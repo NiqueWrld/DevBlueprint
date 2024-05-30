@@ -1,0 +1,11 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyAQAaFRCGxLpdF4gYUYPOs2OWckFztwyjg",
+    "authDomain": "devblueprint-a7807.firebaseapp.com",
+    "projectId": "devblueprint-a7807",
+    "storageBucket": "devblueprint-a7807.appspot.com",
+    "messagingSenderId": "264258072792",
+    "appId": "1:264258072792:web:7657b176dc57e7fd5b67ad"
+  },
+  "youtubeApiKey": "AIzaSyCnypcMFiwQbKnSAYMqZQpVmDaK--aUadc"
+}

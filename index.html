@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Realtime Database Example</title>
+  <style>
+    .tutorial {
+      display: none;
+      /* Initially hide all tutorials */
+      border: 1px solid #ccc;
+      padding: 16px;
+      margin: 16px 0;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    .tutorial.active {
+      display: block;
+      /* Show only tutorials with active class */
+    }
+
+    .tutorial h3 {
+      margin: 0 0 8px 0;
+    }
+
+    .tutorial p {
+      margin: 4px 0;
+    }
+
+    .tutorial a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    .tutorial.type-video {
+      background-color: #f0f8ff;
+    }
+
+    .tutorial.type-documentation {
+      background-color: #f5f5f5;
+    }
+
+    .play-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" id="searchInput" placeholder="Search by title or tag...">
+  <select id="typeFilter">
+    <option value="all">All</option>
+    <option value="video">Video</option>
+    <option value="documentation">Documentation</option>
+  </select>
+
+  <div id="content"></div>
+
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
